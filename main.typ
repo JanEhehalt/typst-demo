@@ -138,10 +138,13 @@
 #outline(
   title: none,
   target: figure.where(kind: table)
-)  
+)
 
+// KI Verzeichnis
+#heading(numbering: none)[KI-Verzeichnis]
+#include "KI-Verzeichnis.typ"
 
 // --- Bibliography ---
 
 #set par(leading: 0.7em, first-line-indent: 0em, justify: true)
-#bibliography("items.bib", style: "apa")
+#bibliography("items.bib", style: "ieee")

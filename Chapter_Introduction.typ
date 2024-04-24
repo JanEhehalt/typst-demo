@@ -20,11 +20,11 @@ When using a acronym a second time it looks like this:
 @rest
 
 
-#lorem(10)
+#lorem(100)
 
 == Subchapter 2
 
-As shown in @dummy_figure, this is wonderful. Typst documentation #footnote(link("https://typst.app/docs")) or that way #footnote[Google einfach]. Look at @einstein. Du kannst dir auch mal @dummy_table anschauen.
+As shown in @dummy_figure, this is wonderful. Typst documentation #footnote(link("https://typst.app/docs")) or that way #footnote[Google einfach]. Look at @einstein. Du kannst dir auch mal @dummy_table anschauen. Oder wir bleiben einfach dabei
 
 #figure(
   [#image("dummy_image.svg", width: 25%)],
